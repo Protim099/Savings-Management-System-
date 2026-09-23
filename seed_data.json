@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "name": "System Admin",
+      "role": "ADMIN",
+      "password": "Admin@123"
+    },
+    {
+      "email": "staff@example.com",
+      "name": "Staff User",
+      "role": "STAFF",
+      "password": "Staff@123"
+    },
+    {
+      "email": "customer@example.com",
+      "name": "Demo Customer",
+      "role": "CUSTOMER",
+      "password": "Customer@123"
+    }
+  ],
+  "savings_plans": [
+    {
+      "name": "Monthly Saver",
+      "plan_type": "MONTHLY",
+      "duration_months": 12,
+      "minimum_deposit": "1000.00",
+      "interest_rate": "6.50"
+    },
+    {
+      "name": "Fixed Saver",
+      "plan_type": "FIXED",
+      "duration_months": 24,
+      "minimum_deposit": "5000.00",
+      "interest_rate": "8.00"
+    },
+    {
+      "name": "General Saver",
+      "plan_type": "GENERAL",
+      "duration_months": 0,
+      "minimum_deposit": "500.00",
+      "interest_rate": "5.00"
+    }
+  ],
+  "accounts": [
+    {
+      "account_number": "SA-DEMO001",
+      "customer_email": "customer@example.com",
+      "plan": "Monthly Saver",
+      "balance": "25000.00",
+      "interest_rate": "6.50",
+      "status": "ACTIVE"
+    }
+  ]
+}
